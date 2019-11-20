@@ -1,0 +1,27 @@
+
+.nav-left.data-v-ff9507fe{
+	color: #333333;
+	width: 120rpx;
+	font-size: 32rpx;
+	font-weight: bold;
+}
+.nav-left>view.data-v-ff9507fe{
+	font-size: 26rpx;
+	margin-left: 6rpx;
+	font-weight: normal;
+}
+.nav-tab-bar.data-v-ff9507fe{
+	width: 100%;
+	margin-left: -20rpx;
+}
+.nav-tab-bar image.data-v-ff9507fe {
+	width: 80rpx;
+}
+.nav-right.data-v-ff9507fe{
+	font-size: 24rpx;
+}
+.nav-right>view.data-v-ff9507fe{
+	font-size: 14rpx;
+	margin-left: 8rpx;
+}
+

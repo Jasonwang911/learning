@@ -1,0 +1,9 @@
+{
+  "bounce": "none",
+  "titleNView": false,
+  "usingComponents": {
+    "index-nav-bar": "/components/index/index-nav-bar",
+    "swiper-nav": "/components/common/swiper-nav",
+    "swiper-dot": "/components/common/swiper-dot"
+  }
+}

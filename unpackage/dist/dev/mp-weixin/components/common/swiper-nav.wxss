@@ -1,0 +1,27 @@
+
+.swiper-tab-list.data-v-64551282 {
+	padding: 0 20rpx !important;
+	width: auto !important;
+}
+.uni-swiper-tab.data-v-64551282 {
+	border-bottom: none !important;
+}
+.swiper-tab-list.data-v-64551282{
+	color: #969696;
+	font-size: 24rpx;
+}
+.uni-swiper-tab .active.data-v-64551282{
+	color: #333333;
+	font-weight: bold;
+	font-size: 32rpx;
+}
+.active .swiper-tap-line.data-v-64551282{
+	width: 100%;
+	height: 18rpx;
+	margin: -24rpx auto;
+	border-radius: 5rpx;
+	background:-webkit-gradient(linear,right top, left top,from(rgba(243,63,100,1)),to(rgba(255,155,101,1)));
+	background:-o-linear-gradient(right,rgba(243,63,100,1) 0%,rgba(255,155,101,1) 100%);
+	background:linear-gradient(-90deg,rgba(243,63,100,1) 0%,rgba(255,155,101,1) 100%);
+}
+

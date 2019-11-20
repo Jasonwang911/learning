@@ -1,0 +1,27 @@
+/* flex布局 */
+.u-f,.u-f-ac,.u-f-ajc,.u-f-jsb, .u-f-column{
+	display: flex;
+}
+.u-f-ac,.u-f-ajc{
+	align-items: center;
+}
+.u-f-ajc{
+	justify-content: center;
+}
+.u-f-jsb{
+	justify-content: space-between;
+}
+.u-f1{
+	flex: 1;
+}
+.u-f-column{
+	flex-direction: column;
+}
+/* 按钮 */
+.user-set-btn {
+	width: 100%;
+	margin: 20upx 0;
+	background: #FFE933 !important;
+	color: #333333 !important;
+	border: 0 !important;
+}
