@@ -21,14 +21,52 @@
 		},
 		{
 			"path" : "pages/mine/mine",
-			"style" : {}
+			"style" : {
+				"navigationBarTitleText":"我的",
+				"navigationBarTextStyle": "white",
+				"app-plus": {
+					"bounce":"none",
+					"titleNView":  {
+						"autoBackButton": false,
+						"backgroundColor": "#FF3E5C",
+						"buttons": [
+							// 右面
+							{
+								"color": "#FFFFFF",
+								"colorPressed": "#BBBBBB",
+								"float":"right",
+								"fontSize":"22px",
+								"fontSrc":"/static/font/icon.ttf",
+								"text":"\ue600"
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"path" : "pages/set-up/set-up",
+			"style" : {
+				"navigationBarTitleText":"设置",
+				"app-plus": {
+					"bounce": "none",
+					"titleNView": {
+						"titleSize": "14px",
+					  "buttons": [
+						 {
+							 "type":"none"
+						 }
+					  ]
+					}
+				}
+			}
 		}
 	],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTitleText": "安博爱学",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColor": "#FFFFFF"
 	},
 	"tabBar": {
 		"color":"#757575",

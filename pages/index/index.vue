@@ -36,13 +36,24 @@
 					<view>推荐课</view>
 					<view>more</view>
 				</view>
-				<view class="recommend-lesson-list">
-					<scroll-view scroll-x>
-						<view class="recommend-lesson-item">
-							<view>标题</view>
-							<view>描述</view>
-							<view>个人信息</view>
-						</view>
+				<view class="recommend-lesson-list uni-tab-bar">
+					<scroll-view scroll-x class="uni-swiper-tab">
+						<block v-for="(item, index) in recommendList" :key="index">
+							<lesson-item :item="item" :index="index"></lesson-item>
+						</block>
+					</scroll-view>
+				</view>
+			</view>
+			<view class="recommend-lesson">
+				<view class="recommend-lesson-head u-f-jsb u-f-ajc">
+					<view>化学课</view>
+					<view>more</view>
+				</view>
+				<view class="recommend-lesson-list uni-tab-bar">
+					<scroll-view scroll-x class="uni-swiper-tab">
+						<block v-for="(item, index) in recommendList" :key="index">
+							<lesson-item :item="item" :index="index"></lesson-item>
+						</block>
 					</scroll-view>
 				</view>
 			</view>
@@ -56,12 +67,14 @@
 	import IndexNavBar from '@/components/index/index-nav-bar.vue'
 	import SwiperNav from '@/components/common/swiper-nav.vue'
 	import swiperDot from "@/components/common/swiper-dot.vue"
+	import LessonItem from '@/components/index/lesson-item.vue'
 	
 	export default {
 		components: {
 			IndexNavBar,
 			SwiperNav,
-			swiperDot
+			swiperDot,
+			LessonItem
 		},
 		data() {
 			return {
@@ -137,6 +150,40 @@
 						color: '#00C46A',
 						name: '优惠'
 					}
+				],
+				recommendList: [
+					{
+						id: 1,
+						title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+						desc: '基础巩固，培养学习兴趣',
+						userpic: '../../static/demo/1.jpg',
+						username: '雏老师',
+						price: 1500
+					},
+					{
+						id: 1,
+						title: '高三数学腾飞班级（5星）直播班型',
+						desc: '保送清华/北大',
+						userpic: '../../static/demo/3.jpg',
+						username: '白老师',
+						price: 700
+					},
+					{
+						id: 1,
+						title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+						desc: '基础巩固，培养学习兴趣',
+						userpic: '../../static/demo/2.jpg',
+						username: '雏老师',
+						price: 1500
+					},
+					{
+						id: 1,
+						title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+						desc: '基础巩固，培养学习兴趣',
+						userpic: '../../static/demo/3.jpg',
+						username: '雏老师',
+						price: 1500
+					}
 				]
 			}
 		},
@@ -199,12 +246,16 @@
 	font-size: 24upx;
 	line-height: 56upx;
 }
-.body{
+/* .body{
 	background: #FBFBFB;
-}
+} */
 /* 推荐课 */
 .recommend-lesson{
 	padding: 15upx 40upx 15upx;
+}
+.uni-swiper-tab{
+	height: auto !important;
+	border-bottom: none !important;
 }
 .recommend-lesson-head {
 	padding: 15upx 0;
@@ -217,13 +268,5 @@
 .recommend-lesson-head>view:last-child{
 	font-size: 24upx;
 	color: #999999;
-}
-.recommend-lesson-item {
-	width: 260upx;
-	background: #FFFFFF;
-	padding: 20upx;
-	font-size: 26upx;
-	border-radius: 5upx;
-	box-shadow: -5upx -5upx 10upx 5upx #D9D9D9 inset;
 }
 </style>

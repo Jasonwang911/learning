@@ -1,0 +1,34 @@
+
+.set-up.data-v-d869c32a{
+	padding: 0 20rpx;
+}
+.set-up-item.data-v-d869c32a {
+	border-bottom: 1rpx solid rgba(0,0,0,0.1);
+	font-size: 28rpx;
+	color: #333333;
+}
+.set-up-item>view.data-v-d869c32a:last-child {
+	font-size: 24rpx;
+	color: #D9D9D9;
+	padding: 16rpx 0;
+}
+.set-up-item .open-btn.data-v-d869c32a{
+	
+	color: #FFFFFF;
+	padding: 0 10rpx;
+	font-size: 20rpx;
+	line-height: 1.8;
+}
+.set-up-item .open.data-v-d869c32a {
+	background: #FF385D;
+}
+.set-up-item .unopen.data-v-d869c32a {
+	background: #12D277;
+}
+.set-up button.data-v-d869c32a {
+	background: #FF385D;
+	margin: 50rpx 20rpx;
+	font-size: 30rpx;
+	line-height: 90rpx;
+}
+

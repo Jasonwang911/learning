@@ -1,0 +1,1 @@
+<view class="mine-list-item u-f-jsb data-v-da44b706"><view class="u-f-ac data-v-da44b706"><view class="{{['icon iconfont u-f-ajc data-v-da44b706','icon-'+item.icon]}}"></view>{{''+item.name+''}}</view><view class="icon iconfont icon-jiantouyou data-v-da44b706"></view></view>
