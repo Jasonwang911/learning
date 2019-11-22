@@ -131,7 +131,19 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var IndexNavBar = function IndexNavBar() {return __webpack_require__.e(/*! import() | components/index/index-nav-bar */ "components/index/index-nav-bar").then(__webpack_require__.bind(null, /*! @/components/index/index-nav-bar.vue */ 41));};var SwiperNav = function SwiperNav() {return __webpack_require__.e(/*! import() | components/common/swiper-nav */ "components/common/swiper-nav").then(__webpack_require__.bind(null, /*! @/components/common/swiper-nav.vue */ 48));};var swiperDot = function swiperDot() {return __webpack_require__.e(/*! import() | components/common/swiper-dot */ "components/common/swiper-dot").then(__webpack_require__.bind(null, /*! @/components/common/swiper-dot.vue */ 55));};var _default =
+Object.defineProperty(exports, "__esModule", { value: true });exports.default = void 0;var IndexNavBar = function IndexNavBar() {return __webpack_require__.e(/*! import() | components/index/index-nav-bar */ "components/index/index-nav-bar").then(__webpack_require__.bind(null, /*! @/components/index/index-nav-bar.vue */ 57));};var SwiperNav = function SwiperNav() {return __webpack_require__.e(/*! import() | components/common/swiper-nav */ "components/common/swiper-nav").then(__webpack_require__.bind(null, /*! @/components/common/swiper-nav.vue */ 64));};var swiperDot = function swiperDot() {return __webpack_require__.e(/*! import() | components/common/swiper-dot */ "components/common/swiper-dot").then(__webpack_require__.bind(null, /*! @/components/common/swiper-dot.vue */ 71));};var LessonItem = function LessonItem() {return __webpack_require__.e(/*! import() | components/index/lesson-item */ "components/index/lesson-item").then(__webpack_require__.bind(null, /*! @/components/index/lesson-item.vue */ 78));};var _default =
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -194,7 +206,8 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
   components: {
     IndexNavBar: IndexNavBar,
     SwiperNav: SwiperNav,
-    swiperDot: swiperDot },
+    swiperDot: swiperDot,
+    LessonItem: LessonItem },
 
   data: function data() {
     return {
@@ -268,7 +281,41 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       {
         icon: 'youhuiquan',
         color: '#00C46A',
-        name: '优惠' }] };
+        name: '优惠' }],
+
+
+      recommendList: [
+      {
+        id: 1,
+        title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+        desc: '基础巩固，培养学习兴趣',
+        userpic: '../../static/demo/1.jpg',
+        username: '雏老师',
+        price: 1500 },
+
+      {
+        id: 1,
+        title: '高三数学腾飞班级（5星）直播班型',
+        desc: '保送清华/北大',
+        userpic: '../../static/demo/3.jpg',
+        username: '白老师',
+        price: 700 },
+
+      {
+        id: 1,
+        title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+        desc: '基础巩固，培养学习兴趣',
+        userpic: '../../static/demo/2.jpg',
+        username: '雏老师',
+        price: 1500 },
+
+      {
+        id: 1,
+        title: '高三数学腾飞班级（3星）录播班型外教周一周三',
+        desc: '基础巩固，培养学习兴趣',
+        userpic: '../../static/demo/3.jpg',
+        username: '雏老师',
+        price: 1500 }] };
 
 
 

@@ -60,6 +60,23 @@
 					}
 				}
 			}
+		},
+		{
+			"path" : "pages/user-info/user-info",
+			"style" : {
+				"navigationBarTitleText":"个人设置",
+				"app-plus": {
+					"bounce":"none",
+					"titleNView": {
+						"titleSize":"14px",
+						"buttons": [
+							{
+								"type":"none"
+							}
+						]
+					}
+				}
+			}
 		}
 	],
 	"globalStyle": {

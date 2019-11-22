@@ -1,6 +1,6 @@
 <template>
 	<view>
-		<uni-nav-bar :fixed="true" :border="false" :statusBar="true" :rightSelect="true">
+		<uni-nav-bar :fixed="true" :border="false" :statusBar="statusBar" :rightSelect="true">
 			<!-- 左边 -->
 			<block slot="left">
 				<view class="nav-left u-f-ajc">
@@ -31,6 +31,13 @@
 	export default {
 		components: {
 			uniNavBar
+		},
+		data() {
+			return {
+				// #ifndef MP-WEIXIN
+				statusBar: true,
+				// #endif
+			}
 		}
 	}
 </script>

@@ -3,14 +3,16 @@
     "pages/index/index",
     "pages/learn/learn",
     "pages/capacity/capacity",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/set-up/set-up",
+    "pages/user-info/user-info"
   ],
   "subPackages": [],
   "window": {
     "navigationBarTextStyle": "black",
-    "navigationBarTitleText": "uni-app",
-    "navigationBarBackgroundColor": "#F8F8F8",
-    "backgroundColor": "#F8F8F8"
+    "navigationBarTitleText": "安博爱学",
+    "navigationBarBackgroundColor": "#FFFFFF",
+    "backgroundColor": "#FFFFFF"
   },
   "tabBar": {
     "color": "#757575",
@@ -45,5 +47,5 @@
     ]
   },
   "usingComponents": {},
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap66.json"
 }

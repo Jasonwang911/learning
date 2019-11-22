@@ -44,12 +44,16 @@
 	font-size: 24rpx;
 	line-height: 56rpx;
 }
-.body.data-v-540318de{
+/* .body{
 	background: #FBFBFB;
-}
+} */
 /* 推荐课 */
 .recommend-lesson.data-v-540318de{
 	padding: 15rpx 40rpx 15rpx;
+}
+.uni-swiper-tab.data-v-540318de{
+	height: auto !important;
+	border-bottom: none !important;
 }
 .recommend-lesson-head.data-v-540318de {
 	padding: 15rpx 0;
@@ -62,14 +66,5 @@
 .recommend-lesson-head>view.data-v-540318de:last-child{
 	font-size: 24rpx;
 	color: #999999;
-}
-.recommend-lesson-item.data-v-540318de {
-	width: 260rpx;
-	background: #FFFFFF;
-	padding: 20rpx;
-	font-size: 26rpx;
-	border-radius: 5rpx;
-	-webkit-box-shadow: -5rpx -5rpx 10rpx 5rpx #D9D9D9 inset;
-	        box-shadow: -5rpx -5rpx 10rpx 5rpx #D9D9D9 inset;
 }
 

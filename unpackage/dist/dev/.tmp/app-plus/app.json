@@ -4,7 +4,8 @@
     "pages/learn/learn",
     "pages/capacity/capacity",
     "pages/mine/mine",
-    "pages/set-up/set-up"
+    "pages/set-up/set-up",
+    "pages/user-info/user-info"
   ],
   "window": {
     "navigationBarTextStyle": "black",

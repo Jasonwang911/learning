@@ -1,0 +1,56 @@
+
+.body.data-v-a3ba4a6a{ 
+	background: #FBFBFB;
+}
+.mine-head.data-v-a3ba4a6a {
+	background: #FF3E5C;
+	height: 300rpx;
+	border-radius: 0 0 60rpx 60rpx;
+	color: #FFFFFF;
+	padding: 0 30rpx;
+}
+.mine-head>view.data-v-a3ba4a6a {
+	margin-top: 50rpx;
+}
+.mine-head>view:first-child>image.data-v-a3ba4a6a{
+	width: 100rpx;
+	height: 100rpx;
+	border-radius: 100%;
+	margin-right: 10rpx;
+}
+.mine-head .user-info>view.data-v-a3ba4a6a:first-child {
+	font-size: 30rpx;
+	font-weight: bold;
+}
+.mine-head .user-info>view.data-v-a3ba4a6a:last-child {
+	font-size: 26rpx;
+	color: #FBFBFB;
+}
+/* 头部导航 */
+.mine-head-nav.data-v-a3ba4a6a {
+	background: #FFFFFF;
+	border-radius: 5rpx;
+	width: 500rpx;
+	margin: -100rpx auto 0;
+	padding: 40rpx 50rpx;
+	-webkit-box-shadow: 0 10rpx 10rpx #D8D8D8;
+	        box-shadow: 0 10rpx 10rpx #D8D8D8;
+}
+.mine-head-nav-item.data-v-a3ba4a6a {
+	font-size: 24rpx;
+	color: #333333;
+}
+.mine-head-nav-item>view.data-v-a3ba4a6a{
+	color: #B9B9B9;
+	font-size: 45rpx;
+}
+/* 功能列表 */
+.mine-list.data-v-a3ba4a6a{
+	margin: 40rpx 20rpx;
+	border-radius: 5rpx;
+	border-top: 1rpx solid rgba(0,0,0,0.1);
+	border-left: 1rpx solid rgba(0,0,0,0.1);
+	border-right: 1rpx solid rgba(0,0,0,0.1);
+}
+
+

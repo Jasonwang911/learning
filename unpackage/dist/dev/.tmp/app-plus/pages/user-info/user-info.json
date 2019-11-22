@@ -1,0 +1,13 @@
+{
+  "navigationBarTitleText": "个人设置",
+  "bounce": "none",
+  "titleNView": {
+    "titleSize": "14px",
+    "buttons": [
+      {
+        "type": "none"
+      }
+    ]
+  },
+  "usingComponents": {}
+}

@@ -4,12 +4,12 @@
 		<view class="mine-head u-f-jsb">
 			<view class="u-f">
 				<image src="../../static/demo/1.jpg" mode="widthFix" lazy-load></image>
-				<view class="user-info">
+				<view class="user-info" @tap="toUserInfo">
 					<view>学员小白</view>
 					<view>编辑个人资料</view>
 				</view>
 			</view>
-			<view class="icon iconfont icon-jiantouyou"></view>
+			<view class="icon iconfont icon-jiantouyou" @tap="toUserInfo"></view>
 		</view>
 		<!-- 头部导航 -->
 		<view class="mine-head-nav u-f-jsb">
@@ -94,7 +94,11 @@
 			}
 		},
 		methods: {
-			
+			toUserInfo() {
+				uni.navigateTo({
+					url: '../user-info/user-info'
+				});
+			}
 		}
 	}
 </script>
